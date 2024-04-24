@@ -49,7 +49,7 @@ public class Jyanken_Chapter26{
 		
 		
 		System.out.println("自分の手は" + playGame.get(Jyan) + ",対戦相手の手は" + playGame.get(Jyan2));
-		if(Jyan == Jyan2) {
+		if(Jyan.equals(Jyan2)) {
 			System.out.println("あいこです");
 		}else if(Jyan.equals("r")&&Jyan2.equals("s") ) {
 			System.out.println("自分の勝ちです");
